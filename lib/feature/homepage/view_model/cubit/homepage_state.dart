@@ -5,14 +5,20 @@ abstract class HomepageState {}
 
 class HomepageInitial extends HomepageState {}
 
-class HomePageList extends HomepageState {
+class HomePageCompleted extends HomepageState {
   final List<PhotoModel> list;
 
-  HomePageList(this.list);
+  HomePageCompleted(this.list);
 }
 
 class HomePageLoadingState extends HomepageState {
   final bool isLoading;
 
   HomePageLoadingState(this.isLoading);
+}
+
+class HomePageError extends HomepageState{
+final String error;
+
+  HomePageError(this.error);
 }

@@ -1,4 +1,4 @@
 class HomePageString{
 
-  static String appbarTitleString = "Home Page with bloc and dio";
+  static String appbarTitleString = "Home Page with bloc and HTTP";
 }
