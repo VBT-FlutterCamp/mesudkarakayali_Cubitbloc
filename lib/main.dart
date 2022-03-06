@@ -1,3 +1,4 @@
+import 'package:bloc_sample_project/feature/uplabs_page/view/uplabsview.dart';
 import 'package:flutter/material.dart';
 
 import 'feature/homepage/view/homepage_view.dart';
@@ -16,10 +17,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-      
+        
         primarySwatch: Colors.orange,
       ),
-      home:  HomePageView(),
+      home:  UplabsView(),
     );
   }
 }

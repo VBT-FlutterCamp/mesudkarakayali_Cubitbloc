@@ -37,6 +37,8 @@ dependencies:
   flutter_bloc: ^8.0.1
   bloc: ^8.0.3
   http: ^0.13.4
+  auto_size_text: ^3.0.0
+  vexana: ^2.7.0
 
   #service
   #dio: ^4.0.4
